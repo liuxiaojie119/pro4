@@ -1,0 +1,39 @@
+.banner{
+		position: relative;
+		width: 1263px;
+		height: 460px;
+		margin: 0 auto;
+		background: grey;
+		overflow: hidden;
+		border-top:2px solid #de0539;
+	}
+	.img-list{
+		list-style:none;
+		position: absolute;
+		left:0; top:0;
+		width: 6315px;
+		height: 460px;
+	}
+	.img-list li{
+		float: left;
+	}
+	.banner-nav-list{
+		list-style:none;
+		position: absolute;
+		right:550px;
+		bottom:50px;
+		
+	}
+	.banner-nav-list li {
+		background: white;
+		float: left;
+		width: 30px; height: 5px;
+		margin-right: 10px;
+		cursor: pointer;
+		text-align: center;
+	}
+	
+	.banner-nav-list li.active{
+		background: #383635;
+	}
+	

@@ -1,0 +1,73 @@
+a {
+  text-decoration: none; }
+
+.sign_main_wrap {
+  width: 1200px;
+  height: 824px;
+  margin: 176px auto; }
+  .sign_main_wrap .sign_main_w_l {
+    padding-top: 50px;
+    padding-left: 85px;
+    padding-right: 48px;
+    width: 810px;
+    height: 754px;
+    border: 1px solid black;
+    float: left; }
+    .sign_main_wrap .sign_main_w_l .sign_main_title {
+      float: left;
+      height: 44px; }
+      .sign_main_wrap .sign_main_w_l .sign_main_title li {
+        float: left;
+        list-style: none;
+        border-bottom: 2px solid #CCCCCC;
+        width: 188px;
+        height: 44px;
+        text-align: center;
+        line-height: 44px; }
+  .sign_main_wrap .sign_main_title li:nth-child(2) {
+    background: url(../img/images/r1_03.jpg) 20px 10px no-repeat; }
+  .sign_main_wrap .sign_main_title li:nth-child(3) {
+    background: url(../img/images/r1_05.jpg) 35px 10px no-repeat; }
+  .sign_main_wrap .sign_main_w_r {
+    float: left;
+    width: 250px;
+    height: 824px;
+    margin-top: 102px;
+    overflow: hidden; }
+
+form {
+  position: relative;
+  line-height: 60px; }
+  form span {
+    margin-left: 120px;
+    color: red;
+    padding-left: 6px;
+    padding-right: 6px; }
+  form img {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px; }
+  form input {
+    margin-left: 14px;
+    border-radius: 2px; }
+
+#check img {
+  border: 1px solid #e2e2e2; }
+
+#imp {
+  margin-left: 200px; }
+
+#tk {
+  display: inline-block;
+  margin-left: -72px; }
+
+.next {
+  width: 180px;
+  height: 50px;
+  background: #de0539;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  margin-left: 250px; }
+
+/*# sourceMappingURL=sign.css.map */

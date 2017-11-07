@@ -1,0 +1,107 @@
+.header_b_b {
+  width: 1200px;
+  margin-top: 47px;
+  margin-bottom: 16px;
+  height: 302px;
+  border: 1px solid black;
+  background: #f2f2f2; }
+  .header_b_b .header_b_b1 {
+    float: left;
+    padding-top: 2px; }
+  .header_b_b .b1 {
+    float: left; }
+    .header_b_b .b1 img {
+      padding: 2px;
+      padding-top: none; }
+      .header_b_b .b1 img:hover {
+        background: red; }
+
+.pro_hot {
+  background: #f2f2f2;
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 300px; }
+  .pro_hot a {
+    width: 232px;
+    margin-right: 6px;
+    float: left; }
+
+#protect {
+  width: 1200px;
+  height: 540px;
+  background: red;
+  margin-top: 16px; }
+  #protect .pct_l {
+    width: 220px;
+    height: 540px;
+    float: left;
+    background: #8db6cc;
+    position: relative; }
+    #protect .pct_l h4 {
+      font-weight: normal;
+      margin: 26px auto 18px;
+      font-size: 32px;
+      color: white;
+      margin-left: 10px; }
+    #protect .pct_l .uu a {
+      color: white;
+      display: inline-block;
+      line-height: 30px;
+      margin-left: 20px;
+      border: 1px solid white;
+      width: 70px;
+      height: 30px;
+      text-align: center;
+      margin-bottom: 20px; }
+    #protect .pct_l img {
+      position: absolute;
+      overflow: hidden;
+      width: 220px;
+      height: 248px;
+      left: -2px; }
+  #protect .pct_r {
+    width: 980px;
+    height: 540px;
+    float: left;
+    background: yellow; }
+    #protect .pct_r .pct_r_t {
+      float: left;
+      width: 740px;
+      height: 540px; }
+      #protect .pct_r .pct_r_t a {
+        display: block;
+        float: left; }
+    #protect .pct_r .pct_r_scr {
+      float: left;
+      height: 335px;
+      width: 240px;
+      background: pink;
+      position: relative; }
+      #protect .pct_r .pct_r_scr .top_a .top_a_a li {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: 0; }
+      #protect .pct_r .pct_r_scr .top_a .top_a_b li:nth-child(1) {
+        background: red;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        color: white;
+        position: absolute;
+        left: 98px;
+        top: 180px;
+        cursor: default; }
+      #protect .pct_r .pct_r_scr .top_a .top_a_b li:nth-child(2) {
+        background: red;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        color: white;
+        position: absolute;
+        left: 120px;
+        top: 180px;
+        cursor: default; }
+
+/*# sourceMappingURL=banner_t.css.map */

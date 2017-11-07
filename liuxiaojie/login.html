@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			a{
+				text-decoration: none;
+			}
+			.login_logo,.login_main{
+				width:1200px;
+				margin:0 auto;
+				
+				
+			}
+			.login_main{
+				background:#bb1c19;
+				height:608px;
+				padding-top:140px;
+			}
+			
+			.login_main_lf{
+				float:left;
+				width:670px;
+				
+				padding-left:60px;
+			}
+			
+			.login_main_rt{
+				float:left;
+				background:white;
+				width:346px;
+				height:368px;
+				
+			}
+			
+			form{
+				margin-left:30px;
+			}
+			.note a:nth-child(1){
+				color:#525354;
+				padding-right:100px;
+				text-decoration: none;
+			}
+			#uname,#pwd,#btn_b{
+				border:1px solid #cccccc;
+				width:284px;
+				height:38px;
+				text-indent: 1em;
+			}
+			#btn_b{
+				background:#bb1c19 ;
+				color:white;
+				margin-top:20px;
+				
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div class="login_logo">
+			<img src="img/images/login_logo_02.jpg">
+		</div>
+		<div class="login_main">
+			<div class="login_main_lf">
+				<img src="img/images/login_03.jpg">
+			</div>
+			<div class="login_main_rt">
+				<form action="" method="">
+					<h4>用户登录</h4>
+					<p>账号：</p>
+					<input type="text" placeholder="用户名/手机号/邮箱" id="uname"><br>
+					<span id="u"></span><br>
+					<span >密码</span><br><br>
+					<input type="password" value="" id="pwd" placeholder="登录密码">
+					<span id="s"></span><br>
+                    <input type="button" value="登录" id="btn_b">	
+                    <p class="note">
+	                    <a href="javascript:;">忘记密码</a>
+	                    <a href="javascript:;">免费注册</a>
+                    	
+                    </p>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+	function $id$(id){
+		return document.getElementById(id)
+	}
+	
+	$id$("btn_b").onclick=function(){
+		var uname=$id$("uname").value;
+		var pwd=$id$("pwd").value;
+		var str=document.cookie;
+		var arr=str.split("; ");
+		var arr=arr[0].split("=");
+		var userInfo=arr[1];
+		var _json=JSON.parse(userInfo);
+		
+		if(_json.name==uname  && _json.pwd==pwd){
+			alert("成功");
+		}else{
+			alert("失败")
+		}
+	}
+</script>

@@ -1,0 +1,201 @@
+.nav_b{
+	background: #f2f2f2;
+}
+.nav,.header,.main_b{
+  	width:1200px;
+  	margin:0 auto;
+  	/*border:1px solid black;*/
+  }
+  .nav{
+  	height:36px;
+  	background: #f2f2f2;
+  	
+  	line-height:36px;
+  	color:#666666;
+  }
+  .nav_l{
+  	float:left;
+  }
+  
+  .nav_r{
+  	float:right;
+  }
+  .nav a{
+  	padding-right:10px;
+  	padding-left:10px;
+  	border-right:1px solid #ced6e4;
+  }
+  
+  .nav_r img{
+  	display: inline-block;
+  	
+  }
+  
+  .header{
+  	height:142px;
+  }
+  
+  .header_t{
+  	height:90px;
+  	padding-top:10px;
+  	position:relative;
+  	
+  }
+  
+  .header_t img{
+  	display:inline-block;
+  	margin-top:20px;
+  	padding-right:155px;
+  	vertical-align: middle;;
+  }
+  
+  .header_t input{
+  	margin-top:10px;
+  }
+  .header_t input:nth-child(1){
+  	border:2px solid #de0539;
+  	border-right:none;
+  	padding-left:12px;
+  }
+  
+  #res{
+  	font-size:16px;
+  	color:white;
+  	background:#de0539;
+  	padding:8.5px 18px;
+  	border:none;
+  }
+  
+  #header_t_car{
+    border:1px solid #e2e2e2;
+    padding:13px 45px;
+    margin-left:90px;
+  }
+  
+  #res_hot {
+  	position: absolute;
+  	left:460px;
+  	top:76px;
+  	
+  }
+  #res_hot a{
+  	padding-right: 5px;
+  	
+  }
+  
+  
+  .ban_h{
+  	float:left;
+   }
+  .ban_h li{
+  	float:left;
+  	width:164px;
+  	height:40px;
+  	line-height:40px;
+  	font-size:14px;
+  	color:#333333;
+  }
+  
+  #products{
+  	background: #e6053b;
+  	padding-left:56px;
+  	margin-right:56px;
+    padding-bottom:2px;
+    position:relative;
+  }
+  
+  #products a{
+  	color:white;
+  }
+  
+  .ban_h li a:hover{
+  	color:red;
+  } 
+  
+.tab{
+	position: absolute;
+    background: #444546;
+    width: 220px;
+    height: 460px;
+    left: 31px;
+    color:white;
+}
+
+
+
+.tab-item{
+	height:56px;
+	padding-left:32px;
+	line-height:56px;
+	color:white;
+}
+
+.tab-item a{
+	color:white;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.tab-item span{
+	float:right;
+	margin-right:20px;
+}
+
+#products1{
+	    background: white;
+	    position: absolute;
+	    width: 960px;
+	    left: 250px;
+	    height:460px;
+	    overflow: hidden;
+	    display:none;
+}
+
+.tab li:hover{
+	background:white;
+	color:red;
+}
+
+.tab li a:hover{
+	color:red;
+}
+
+
+.fore1 dt{
+	float:left;
+	width:134px;
+	height:40px;
+	padding-left:58px;
+	
+}
+.fore1 dt a{
+	color:red;
+	line-height:40px;     
+}
+
+.fore1 dd{
+	float:left;
+	width:767px;
+	height:40px;
+	line-height:40px;
+	
+}
+
+.fore1 dd a{
+	/*border-right:1px solid #dddddd;*/
+	display:inline-block;
+	text-align:center;
+	width:76px;
+	
+}
+
+.fore1:nth-child(2){
+	display:none;
+}
+
+
+
+  
+  
+  
+  
+ 
